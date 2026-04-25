@@ -79,28 +79,4 @@ All AWS infrastructure is declared in Terraform under [`terraform/`](terraform/)
 
 ---
 
-## Local Development
-
-To run the pipeline locally or deploy your own instance:
-
-```bash
-# 1. Configure AWS credentials
-aws configure
-
-# 2. Deploy infrastructure
-cd terraform
-terraform init
-terraform apply
-
-# 3. Trigger the pipeline manually
-# Invoke the ingestor Lambda from the AWS Console or CLI
-
-# 4. Serve the frontend locally
-cd ..
-python -m http.server 8080
-# Open http://localhost:8080
-```
-
----
-
 _Data source: [USGS Earthquake Hazards Program](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)_

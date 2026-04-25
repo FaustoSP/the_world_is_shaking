@@ -1,8 +1,12 @@
 # The World Is Shaking
 
-A real-time seismic activity dashboard powered by a fully automated AWS data pipeline. Earthquake data from the USGS is ingested daily, processed, and served via CloudFront to an interactive map built with Leaflet.js.
+<div align="center">
 
-**[Live Dashboard](https://faustosp.github.io/the_world_is_shaking)**
+## [🌍 View Live Dashboard](https://faustosp.github.io/the_world_is_shaking)
+
+</div>
+
+A real-time seismic activity dashboard powered by a fully automated AWS data pipeline. Earthquake data from the USGS is ingested daily, processed, and served via CloudFront to an interactive map built with Leaflet.js.
 
 ![AWS](https://img.shields.io/badge/AWS-Lambda%20%7C%20S3%20%7C%20CloudFront%20%7C%20EventBridge-FF9900?logo=amazonaws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC?logo=terraform&logoColor=white)

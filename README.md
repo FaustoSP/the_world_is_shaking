@@ -49,11 +49,11 @@ flowchart LR
 
 ## Features
 
-- **Interactive world map** — earthquake markers colour-coded and sized by magnitude, with popups showing location, depth, and timestamp
-- **Magnitude filter** — slider to filter events in real time
-- **Stats cards** — total events, strongest earthquake with location, and average magnitude for the past month
-- **Distribution chart** — bar chart of event counts by magnitude range
-- **Staleness indicator** — warns if the pipeline hasn't updated in over 25 hours
+- **Interactive world map**: earthquake markers colour-coded and sized by magnitude, with popups showing location, depth, and timestamp
+- **Magnitude filter**: slider to filter events in real time
+- **Stats cards**: total events, strongest earthquake with location, and average magnitude for the past month
+- **Distribution chart**: bar chart of event counts by magnitude range
+- **Staleness indicator**: warns if the pipeline hasn't updated in over 25 hours
 
 ---
 
